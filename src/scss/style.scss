@@ -1,0 +1,138 @@
+
+@font-face {
+    font-family: Romula;
+    src:url("../fonts/Romul.ttf");
+}
+@font-face {
+    font-family: Academy;
+    src:url("../fonts/academy.ttf");
+}
+
+.no-dec-link{
+    text-decoration: none;
+}
+
+.body{
+    background: url("../img/background-body.png") repeat;
+}
+
+.wrapper-all-page{
+    background: url("../img/backgound-wrapper.png") no-repeat;
+    width: 664px;
+    height: 590px;
+     margin: 10px auto;
+    padding-top: 75px;
+}
+
+.background-bottom-caption-pizza-house{
+    background: url("../img/background-wrapper.png");
+    width:542px;
+    height:456px;
+    margin: 0 auto;
+    margin-top: 64px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    border: 1px solid #979378;
+}
+
+.caption-pizza-house{
+    width:203px ;
+    height: 30px;
+    font-size: 26px;
+    font-family: Romula;
+    background: linear-gradient(#f1eee2,#caba8e);
+    -webkit-background-clip: text;
+    color: transparent;
+    font-weight: bold;
+    margin-left: 230px;
+}
+
+.only-perfect-pizza{
+    font-family: Academy;
+    font-size: 10px;
+    background: linear-gradient(#f1eee2,#caba8e);
+    -webkit-background-clip: text;
+    color: transparent;
+    font-weight: bold;
+    margin-left: 270px;
+
+}
+
+.wrapper-head-main{
+    background: url("../img/background-head-main.png") no-repeat;
+    width: 420px;
+    padding-top: 27px;
+    margin: -60px auto 0;
+}
+
+.menu-head{
+    display: flex;
+    font-family: Academy;
+    font-weight: bold;
+    font-size: 10px;
+    margin-left: 23px;
+    margin-top: 1px;
+    height:32px;
+    width: 383px;
+    background: #c0b38b;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    border: 1px solid #787057;
+    box-shadow: 0px -1px 20px -4px #000000 inset;
+}
+
+.menu-li-header{
+    width: calc(100% / 4);
+    text-align: center;
+    margin-top: 0px;
+    padding-top: 10px;
+    border-right: 1px solid #a59974;
+    cursor: pointer;
+}
+
+.menu-li-header:hover{
+    background: #9b040c;
+    opacity: 0.5;
+}
+
+.menu-li-header:hover .color-link-menu-head{
+    color: #ddddb0;
+}
+
+.menu-li-header:last-child{
+    border-right: none;
+}
+
+.color-link-menu-head{
+    color: #554935;
+}
+
+.main{
+    height: 450px;
+}
+
+.footer{
+    text-align: center;
+    font-family: Tahoma;
+    font-size: 9px;
+    color: #93817c;
+}
+
+.head{
+    background: url("../img/top-menu.png") repeat;
+    width: 390px;
+    height: 3px;
+    margin-left: 21px;
+    margin-top: -4px;
+}
+
+
+.bottom-line-green-and-orange{
+    background: url("../img/bottom-line.png") no-repeat;
+    height: 20px;
+    width: 400px;
+    margin-left: 22px;
+    margin-top: 5px;
+}

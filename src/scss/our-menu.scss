@@ -1,0 +1,71 @@
+.caption-menu{
+    font-family: Tahoma;
+    font-size: 12px;
+    font-weight: bold;
+    color: #696761;
+    margin-left: 40px;
+    width: 345px;
+    margin-top: 35px;
+    border-bottom: 1px dotted #b1aa8d ;
+}
+
+.ul-menu{
+    width: 345px;
+    height: auto;
+    margin-top: 6px;
+    margin-left: 40px;
+    font-family: Tahoma;
+    font-size: 9px;
+    font-weight:bold;
+    color: #696761;
+}
+.from-and-price{
+    display: flex;
+}
+.list-menu{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+    border-bottom: 1px dotted #b1aa8d ;
+}
+
+.name:before{
+    content: '\25ba';/* Добавляем маркер в шестнадцатеричном формате*/
+    padding-right: 2px; /* Расстояние от маркеров до текста */
+    color: #696761; /* Маркеры красного цвета */
+    font-size: 8px;
+
+}
+
+.from{
+    font-weight: normal;
+    font-size: 9px;
+}
+
+.price{
+    font-size: 11px;
+}
+
+.fast-pizza-footer{
+    background: url("../img/background-bottom.png");
+    width: 379px;
+    height: 35px;
+    margin-left: 26px;
+    margin-top: 57px;
+    padding-top:20px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 3px;
+    box-shadow: inset 1px 1px 10px 4px #3e4e30;
+}
+
+.number {
+    float: right;
+    width: 136px;
+    height: 20px;
+    margin-right: 20px;
+}
+
+.really-fast-pizza{
+    margin-left: 15px;
+}
